@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Principal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./utils/css/style.css"/>
+  </head>
+  <!--Entiendo que podia quitar los div y algunos atributos porque estan en el archivo css, pero los tenia puestos antes de la última clase y los dejo porque tener claro las diferentes formas-->
+  <body>
+   <header>
+    <div style="background-color: rgb(201, 143, 146)">
+      <center>
+        <h1 style="color: azure">CASAS RURALES</h1>
+        <h1>Las mejores casas en pequeños pueblos para una escapada rural</h1>
+      
+      <!--Aqui los botonoes de navegación que puse primero y duespues con el enlace a boostrap
+      <a href="./index.html">Página de Inicio </a> 
+      <a href="./info.html">Información</a>
+      <a href="./contact.html">Contacto</a>-->
+      <a href="./index.html" class="btn btn-success">Página de Inicio</a>
+      <a href="./info.html" class="btn btn-success">Información</a>
+      <a href="./contact.html" class="btn btn-success">Contacto</a>
+       </center>
+   </header>
+   <main>
+    <h1>Página de información</h1>
+    <h2 style="background-color: coral; padding-top: 10%; padding-bottom: 10%">
+      Aqui encontrás informacion detallada sobre nuestros alojamientos:
+    </h2>
+    <div>
+      <article>
+      <h3>Casa Rural de Campo Dane</h3>
+      <img src="./utils/images/casas-rurales.jpg" style="width: 40%" />
+      <p>
+        Casa Rural de Campo Dane es un acogedor alojamiento rural situado en una
+        tranquila zona de Valdemanco, un bonito pueblo de la Sierra Norte de
+        Madrid. Esta casa tiene capacidad para alojar cómodamente a 6-8 personas
+        gracias a sus equipadas estancias interiores y a su espacio exterior
+        privado
+      </p>
+      <table border="1">
+        <colgroup
+          span="1"
+          style="background-color: rgb(20, 209, 178)"
+        ></colgroup>
+
+        <thead>
+          <th colspan="6">Información de la casa</th>
+        </thead>
+        <tbody>
+          <!--fila-->
+          <tr>
+            <!--columnas-->
+            <td rowspan="2">Caracteristicas</td>
+            <td style="background-color: cornflowerblue">Plazas</td>
+            <td style="color: blueviolet">Dormitorios</td>
+            <td>Camas</td>
+            <td>Baños</td>
+            <td>Chimenea</td>
+          </tr>
+          <tr>
+            <!--columna-->
+            <td>12</td>
+            <td>6</td>
+            <td>3</td>
+            <td>3</td>
+            <td style="background-color: rgb(231, 13, 13)">Si</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <!--columna-->
+            <td>Actividades</td>
+            <td style="background-color: chartreuse" colspan="5">
+              <b>Caza, pesca, senderismo, equitación</b>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </article>
+    <div>
+      <article>
+   
+      <h3>Casa Raspa</h3>
+
+      <img
+        src="https://www.apartamentoslatorre.com/wp-content/uploads/2016/10/Apartamentos-Rurales-La-Torre-casas-peque%C3%B1as-600x388.jpg"
+        style="width: 35%"
+      />
+      <p>
+        En nuestra casa aceptamos mascotas para que disfrutéis de vuestra
+        estancia en la mejor compañía. Las comodidades en su interior son
+        muchas, seguidamente mencionamos algunas de ella, dispone de calefacción
+        individual, DVD, equipo de música, lavadora, microondas, frigorífico,
+        congelador, horno, cafetera italiana y eléctrica, plancha, secador,
+        espejo de aumento, menaje de todo tipo, mantelería...
+      </p>
+      <table border="1">
+        <colgroup
+          span="1"
+          style="background-color: rgb(20, 209, 178)"
+        ></colgroup>
+
+        <thead>
+          <th colspan="6">Información de la casa</th>
+        </thead>
+        <tbody>
+          <!--fila-->
+          <tr>
+            <!--columnas-->
+            <td rowspan="2">Caracteristicas</td>
+            <td style="background-color: cornflowerblue">Plazas</td>
+            <td style="color: blueviolet">Dormitorios</td>
+            <td>Camas</td>
+            <td>Baños</td>
+            <td>Chimenea</td>
+          </tr>
+          <tr>
+            <!--columna-->
+            <td>12</td>
+            <td>6</td>
+            <td>3</td>
+            <td>3</td>
+            <td style="background-color: rgb(231, 13, 13)">Si</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <!--columna-->
+            <td>Actividades</td>
+            <td style="background-color: chartreuse" colspan="5">
+              <b>Caza, pesca, senderismo, equitación</b>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <br />
+    <div>
+      <h3>Villa Olivo</h3>
+      <img
+        src="https://bedandrestmagazine.es/wp-content/uploads/2019/02/casa-rural.jpg"
+        style="width: 40%"
+      />
+
+      <p>
+        Enclavada en el corazón del Parque Natural Sierra Norte de Guadalajara
+        junto al Hayedo de Tejera Negro, disfruta de una posición privilegiada
+        con vistas espectaculares a la Sierra de Ayllon, el Pico del Lobo y el
+        Pico Ocejón.
+      </p>
+      <table border="1">
+        <colgroup
+          span="1"
+          style="background-color: rgb(20, 209, 178)"
+        ></colgroup>
+
+        <thead>
+          <th colspan="6">Información de la casa</th>
+        </thead>
+        <tbody>
+          <!--fila-->
+          <tr>
+            <!--columnas-->
+            <td rowspan="2">Caracteristicas</td>
+            <td style="background-color: cornflowerblue">Plazas</td>
+            <td style="color: blueviolet">Dormitorios</td>
+            <td>Camas</td>
+            <td>Baños</td>
+            <td>Chimenea</td>
+          </tr>
+          <tr>
+            <!--columna-->
+            <td>12</td>
+            <td>6</td>
+            <td>3</td>
+            <td>3</td>
+            <td style="background-color: rgb(231, 13, 13)">Si</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <!--columna-->
+            <td>Actividades</td>
+            <td style="background-color: chartreuse" colspan="5">
+              <b>Caza, pesca, senderismo, equitación</b>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </article>
+    <div>
+      <article>
+      <h3>La casita del Tejo</h3>
+
+      <img src="./utils/images/501ff2758a9d8.jpg" style="width: 40%" />
+      <p>
+        Se encuentra situada en Hervás, localidad situada en el Valle del
+        Ambroz, junto al Valle del Jerte, La Vera y la Sierra de Gredos. Está
+        ubicada en el casco urbano del pueblo, rodeada de la arquitectura
+        tradicional declarada conjunto histórico-artístico. Esta pequeña casa de
+        piedra, es un lugar de ensueño pensado para descansar o simplemente
+        disfrutar.
+      </p>
+      <table border="1">
+        <colgroup
+          span="1"
+          style="background-color: rgb(20, 209, 178)"
+        ></colgroup>
+
+        <thead>
+          <th colspan="6">Información de la casa</th>
+        </thead>
+        <tbody>
+          <!--fila-->
+          <tr>
+            <!--columnas-->
+            <td rowspan="2">Caracteristicas</td>
+            <td style="background-color: cornflowerblue">Plazas</td>
+            <td style="color: blueviolet">Dormitorios</td>
+            <td>Camas</td>
+            <td>Baños</td>
+            <td>Chimenea</td>
+          </tr>
+          <tr>
+            <!--columna-->
+            <td>12</td>
+            <td>6</td>
+            <td>3</td>
+            <td>3</td>
+            <td style="background-color: rgb(231, 13, 13)">Si</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <!--columna-->
+            <td>Actividades</td>
+            <td style="background-color: chartreuse" colspan="5">
+              <b>Caza, pesca, senderismo, equitación</b>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </article>
+    </div>
+  </main>
+    <br>
+    <footer>
+      <blockquote>Página de Información</blockquote>
+    </footer>
+  </body>
+</html>
